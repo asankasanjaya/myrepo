@@ -1,7 +1,6 @@
-
+<h1>Hello this is a simple php application!</h1>
 
 <?php
-echo "<h1>Hello this is a simple php application!</h1>";
 header('Content-Type: text/plain');
 session_start();
 if(!isset($_SESSION['visit']))
