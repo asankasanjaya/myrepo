@@ -16,5 +16,5 @@ $_SESSION['visit']++;
 echo "\nServer IP: ".$_SERVER['SERVER_ADDR'];
 echo "\nClient IP: ".$_SERVER['REMOTE_ADDR'];
 echo "\nX-Forwarded-for: ".$_SERVER['HTTP_X_FORWARDED_FOR']."\n";
-print_r($_COOKIE);
+print_r($_SERVER);
 ?>
