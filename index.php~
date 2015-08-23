@@ -7,11 +7,11 @@ session_start();
 
 if(!isset($_SESSION['visit']))
 {
-        echo "This is the first time you're visiting this server<br/>";
+        echo "This is the first time you're visiting this server<br/><br/><br/>";
         $_SESSION['visit'] = 0;
 }
 else
-        echo "Your number of visits: ".$_SESSION['visit']."<br/>";
+        echo "Your number of visits: ".$_SESSION['visit']."<br/><br/><br/>";
 
 $_SESSION['visit']++;
 
