@@ -1,10 +1,10 @@
-
-
+<html>
+echo "<h1>Hello this is a simple php application!</h1>";
 <?php
 header('Content-Type: text/plain');
 session_start();
 
-echo "<h1>Hello this is a simple php application!</h1>";
+
 if(!isset($_SESSION['visit']))
 {
         echo "This is the first time you're visiting this server";
@@ -20,3 +20,4 @@ echo "\nClient IP: ".$_SERVER['REMOTE_ADDR'];
 echo "\nX-Forwarded-for: ".$_SERVER['HTTP_X_FORWARDED_FOR']."\n";
 print_r($_SERVER);
 ?>
+</html>
