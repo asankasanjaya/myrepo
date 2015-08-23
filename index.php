@@ -1,8 +1,10 @@
-<h1>Hello this is a simple php application!</h1>
+
 
 <?php
 header('Content-Type: text/plain');
 session_start();
+
+echo "<h1>Hello this is a simple php application!</h1>";
 if(!isset($_SESSION['visit']))
 {
         echo "This is the first time you're visiting this server";
