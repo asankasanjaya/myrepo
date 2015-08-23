@@ -1,5 +1,5 @@
 <html>
-echo "<h1>Hello this is a simple php application!</h1>";
+<h1>Hello this is a simple php application!</h1>
 <?php
 header('Content-Type: text/plain');
 session_start();
